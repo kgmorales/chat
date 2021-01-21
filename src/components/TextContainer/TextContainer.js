@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import onlineIcon from '../icons/onlineIcon.png';
 
+import './TextContainer.css';
+
 const TextBox = styled.div`
 	display: flex;
 	flex-direction: column;
