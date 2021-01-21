@@ -3,8 +3,6 @@ import styled from 'styled-components';
 
 import onlineIcon from '../icons/onlineIcon.png';
 
-import './TextContainer.css';
-
 const TextBox = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -12,6 +10,9 @@ const TextBox = styled.div`
 	color: white;
 	height: 60%;
 	justify-content: space-between;
+	@media (min-width: 320px) and (max-width: 1200px) {
+		display: none;
+	}
 `;
 
 const ActiveContainer = styled.div`
